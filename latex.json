@@ -1,0 +1,1369 @@
+{
+	// 数学运算符--二元运算符, 算子, 巨算子
+	"int": {
+		"prefix": "int",
+		"body": "\\int_{${1}}^{${2}}",
+		"description": "Insert an integral"
+	},
+	"xint":{
+		"prefix": "xint",
+		"body": "\\int_{${1}}",
+		"description": "只有下标的积分号"
+	},
+	"iint":{
+		"prefix": "2int",
+		"body": "\\iint_{${1}}",
+		"description": "二重积分"
+	},
+	"iiint":{
+		"prefix": "3int",
+		"body": "\\iiint_{${1}}",
+		"description": "三重积分"
+	},
+	"iiiint":{
+		"prefix": "4int",
+		"body": "\\iiiint_{${1}}",
+		"description": "四重积分"
+	},
+	"oint":{
+		"prefix": "oint",
+		"body": "\\oint_{${1}}",
+		"description": "闭合路径积分"
+	},
+	"wedge":{
+		"prefix": "wd",
+		"body": "\\wedge",
+		"description": "wedge"
+	},
+	"sum":{
+		"prefix":"sum",
+		"body":"\\sum_{${1}}^{${2}}",
+		"description":"Insert a summation"
+	},
+	"pian wei fen":{
+		"prefix": "pds",
+		"body": "\\frac{\\partial ${1}}{\\partial ${2}}",
+		"description": "偏导数"
+	},
+	"dao shu":{
+		"prefix": "ds",
+		"body": "\\frac{\\mathrm{d} ${1}}{\\mathrm{d} ${2}}",
+		"description": "导数"
+	},
+	"wei fen":{
+		"prefix": "wf",
+		"body": "\\mathrm{d}${1}",
+		"description": "微分"
+	},
+	"and":{
+		"prefix": "zz",
+		"body": "& ",
+		"description": "And"
+	},
+	"plus":{
+		"prefix": "pl",
+		"body": "+ ",
+		"description": "plus"
+	},
+	"jian":{
+		"prefix": "ji",
+		"body": "- ",
+		"description": "减号"
+	},
+	"denghao":{
+		"prefix": "eq",
+		"body": "= ",
+		"description": "等号"
+	},
+	"approx":{
+		"prefix": "ydy",
+		"body": "\\approx ",
+		"description": "约等于"
+	},
+	"cheng hao":{
+		"prefix": "cx",
+		"body": "\\times ",
+		"description": "乘号" 
+	},
+	"cdot":{
+		"prefix": "cd",
+		"body": "\\cdot ",
+		"description": "cdot command"
+	},
+	"prime":{
+		"prefix": "pr",
+		"body": "\\prime",
+		"description": "prime command"
+	},
+	"triangleq":{
+		"prefix": "dyw",
+		"body": "\\triangleq ",
+		"description": "triangleq command"
+	},
+	"nabla":{
+		"prefix": "na",
+		"body": "\\nabla ",
+		"description": "nabla 算子"
+	},
+	"pm":{
+		"prefix": "pm",
+		"body": "\\pm ",
+		"description": "pm operator"
+	},
+	"mp":{
+		"prefix": "mp",
+		"body": "\\mp ",
+		"description": "mp operator"
+	},
+	"hat":{
+		"prefix":"hat",
+		"body":"\\hat{${1}}",
+		"description":"Insert a hat"
+	},
+	"displaystyle":{
+		"prefix": "dps",
+		"body": "\\displaystyle ",
+		"description": "Displaystyle Command"
+	},
+	"fraction":{
+		"prefix": "fs",
+		"body": "\\frac{${1}}{${2}}",
+		"description": "Insert a fraction"
+	},
+	"wuqiong":{
+		"prefix": "wq",
+		"body": "\\infty ",
+		"description": "Insert a infty"
+	},
+	"pianwef":{
+		"prefix": "pat",
+		"body": "\\partial ",
+		"description": "Insert a partial"
+	},
+	"sim":{
+		"prefix": "sim",
+		"body": "\\sim ",
+		"description": "Sim command"
+	},
+	"genhao":{
+		"prefix": "gh",
+		"body": "\\sqrt[$2]{$1}",
+		"description": "根号"
+	},
+	"ercigenhao":{
+		"prefix": "sq",
+		"body": "\\sqrt{$1}",
+		"description": "sqrt"
+	},
+	"Mmh":{
+		"prefix": "col",
+		"body": "\\colon",
+		"description": "Math environment Colon"
+	},
+	"lim":{
+		"prefix":"lim",
+		"body":"\\lim_{$1}$0",
+		"description":"Insert a limmitation"
+	},
+	"to":{
+		"prefix":"to",
+		"body":"\\to ",
+		"description":"Inset a to"
+	},
+	"shangbiao":{
+		"prefix": "ss",
+		"body": "^{$1}",
+		"description": "上标"
+	},
+	"xiabiao":{
+		"prefix": "xx",
+		"body": "_{$1}",
+		"description": "下标"
+	},
+	"dayu dengyu":{
+		"prefix": "dd",
+		"body": "\\geqslant ",
+		"description": "≥"
+	},
+	"xiaoyu dengyu":{
+		"prefix": "xd",
+		"body": "\\leqslant ",
+		"description": "≤"
+	},
+	"zhen bao han yu":{
+		"prefix": "zhy",
+		"body": "\\subset ",
+		"description": "真含于"
+	},
+	"zhen bei bao han yu":{
+		"prefix": "zbhy",
+		"body": "\\supset ",
+		"description": "真被含于"
+	},
+	"han yu":{
+		"prefix": "hy",
+		"body": "\\subseteq ",
+		"description": "含于"
+	},
+	"bei han yu":{
+		"prefix": "bhy",
+		"body": "\\supseteq ",
+		"description": "被含于"
+	},
+	"bu shu yu":{
+		"prefix": "nin",
+		"body": "\\notin ",
+		"description": "不属于"
+	},
+	"duan deng jia":{
+		"prefix": "ddj",
+		"body": "\\Leftrightarrow ",
+		"description": "短等价"
+	},
+	"chang deng jia":{
+		"prefix": "cdj",
+		"body": "\\Longleftrightarrow ",
+		"description": "长等价"
+	},
+	"chui zhi":{
+		"prefix": "czy",
+		"body": "\\bot ",
+		"description": "垂直于"
+	},
+	"chang deng hao":{
+		"prefix": "ceq",
+		"body": "\\xlongequal[$2]{$1} ",
+		"description": "长等号"
+	},
+	"ke yan chang jian tou":{
+		"prefix": "kycar",
+		"body": "${1|\\xleftarrows,\\xrightarrow,\\xlongleftarrow,\\xlongrightarrow,\\xLongleftarrow,\\xLongrightarrow,\\xleftrightarrow,\\xLeftrightarrow,\\xlongleftrightarrow,\\xLongleftrightarrow|}",
+		"description": "可延长水平箭头选项"
+	}, // 需加载 extarrows 宏包
+	"shui ping jian tou":{
+		"prefix": "har",
+		"body": "${1|\\Longrightarrow,\\Longleftarrow,\\longrightarrow,\\longleftarrow,\\overrightarrow,\\underrightarrow,\\overleftarrow,\\overleftrightarrow,\\underleftarrow,\\underleftrightarrow,\\rightleftharpoons|}",
+		"description": "水平箭头选项"
+	},
+	"chui zhi jian tou":{
+		"prefix": "var",
+		"body": "${1|\\Uparrow,\\Downarrow,\\Updownarrow,\\uparrow,\\downarrow,\\updownarrow|}",
+		"description": "垂直箭头选项"
+	},
+	"in":{
+		"prefix":"in",
+		"body":"\\in ",
+		"description":"Insert a in"
+	},
+	"jueduizhi":{
+		"prefix": "jdz",
+		"body": "\\left\\lvert $1 \\right\\rvert",
+		"description": "绝对值"
+	},
+	"equiv":{
+		"prefix": "hd",
+		"body": "\\equiv ",
+		"description": "恒等于"
+	},
+	"ne":{
+		"prefix": "ne",
+		"body": "\\ne ",
+		"description": "不等于"
+	},
+	"vector":{
+		"prefix": "xl",
+		"body": "\\vec{$1}",
+		"description": "向量"
+	},
+	"bar":{
+		"prefix": "bar",
+		"body": "\\bar ",
+		"description": "bar"
+	},
+	"propto":{
+		"prefix": "zby",
+		"body": "\\propto ",
+		"description": "正比于"
+	},
+	"dot":{
+		"prefix": "dot",
+		"body": "\\dot{${1}}",
+		"description": "dot"
+	},
+	"ddot":{
+		"prefix": "ddot",
+		"body": "\\ddot{${1}}",
+		"description": "ddot"
+	},
+	"circ":{
+		"prefix": "circ",
+		"body": "\\circ",
+		"description": "circ"
+	},
+	"binom":{
+		"prefix": "bi",
+		"body": "\\binom{${1:s}}{${2:x}}",
+		"description": "二次项系数"
+	},
+	"max":{
+		"prefix": "max",
+		"body": "\\max",
+		"description": "max"
+	},
+	"min":{
+		"prefix": "min",
+		"body": "\\min",
+		"description": "min"
+	},
+
+	// bm宏包代码片段
+	"bm":{
+		"prefix": "mh",
+		"body": "\\bm{$1}",
+		"description": "bm command"
+	},
+	// 数学函数
+	"sin":{
+		"prefix": "sin",
+		"body": "\\sin{$1}",
+		"description": "Sin Function"
+	},
+	"cos":{
+		"prefix": "cos",
+		"body": "\\cos{$1}",
+		"description": "Cos Function"
+	},
+	"arctan":{
+		"prefix": "ata",
+		"body": "\\arctan{$1}",
+		"description": "Arctan Function"
+	},
+	"arcsin":{
+		"prefix": "ars",
+		"body": "\\arcsin{$1}",
+		"description": "Arcsin Function"
+	},
+	"arccos":{
+		"prefix": "arc",
+		"body": "\\arccos{$1}",
+		"description": "Arccos Function"
+	},
+	"sec":{
+		"prefix": "sec",
+		"body": "\\sec{$1}",
+		"description": "Sec Function"
+	},
+	"csc":{
+		"prefix": "csc",
+		"body": "\\csc{$1}",
+		"description": "Csc Function"
+	},
+	"tan":{
+		"prefix": "tan",
+		"body": "\\tan{$1}",
+		"description": "Tan Function"
+	},
+	"cot":{
+		"prefix": "cot",
+		"body": "\\cot{$1}",
+		"description": "Cot Function"
+	},
+	"Ln":{
+		"prefix": "ln",
+		"body": "\\ln{$1}",
+		"description": "Ln Function"
+	},
+	"log":{
+		"prefix": "log",
+		"body": "\\log{${1}}",
+		"description": "log function"
+	},
+	// 水平间隔命令
+	"quad":{
+		"prefix": "qad",
+		"body": "\\quad ",
+		"description": "quad"
+	},
+	"qquad":{
+		"prefix": "qqad",
+		"body": "\\qquad ",
+		"description": "qquad"
+	},
+	// 定界符
+	"kuohao":{
+		"prefix": "kh",
+		"body": "\\left( $1 \\right)$0",
+		"description": "小括号"
+	},
+	"zhongkuohao":{
+		"prefix": "zkh",
+		"body": "\\left[ $1 \\right]$0",
+		"description": "中括号"
+	},
+	"da kuo hao": {
+		"prefix": "dkh",
+		"body": "\\left\\{ ${1}\\right\\\\}",
+		"description": "大括号"
+	},
+	"shang da kuo hao":{
+		"prefix": "sd",
+		"body": "\\overbrace{${1}}^{$2}",
+		"description": "上大括号"
+	},
+	"xia da kuo hao":{
+		"prefix": "ud",
+		"body": "\\underbrace{$1}_{$2}",
+		"description": "下大括号"
+	},
+	"mid":{
+		"prefix": "mid",
+		"body": "\\left. $1\\right|_{$2}",
+		"description": "mid"
+	},
+	"bu bian kuo hao":{
+		"prefix": "bkh",
+		"body": "( ${1} )",
+		"description": "不自动变化大小的括号"
+	},
+	"bu bian zhong kuo hao":{
+		"prefix": "bzkh",
+		"body": "[ ${1} ]",
+		"description": "不自动变化大小的中括号"
+	},
+
+	// 行间行内数学环境
+	"hangnei":{
+		"prefix":"hn",
+		"body":"$ ${1} $",
+		"description":"行内公式"
+	},
+	"hangjian":{
+		"prefix":"hj",
+		"body":"\\[ ${1} \\]$0",
+		"description":"行间公式"
+	},
+	// 环境语法
+	"beg":{
+		"prefix":"beg",
+		"body":"\\begin{$1}\n\t$0\n\\end{$1}",
+		"description":"Begin a environment"
+	},
+	"bed":{
+		"prefix":"bed",
+		"body":"\\begin{document}\n$0\n\\end{document}",
+		"description":"Insert a document environment"
+	},
+	"tikzpicture":{
+		"prefix": "TKP",
+		"body": "\\begin{tikzpicture}\n\t$0\n\\end{tikzpicture}",
+		"description": "Insert a tikzpicture environment"
+	},
+	"usetikzlibrary":{
+		"prefix": "ust",
+		"body": "\\usetikzlibrary{$0}",
+		"description": "Usetikzlibrary command"
+	},
+	"textbackslash":{
+		"prefix": "fxg",
+		"body": "\\textbackslash",
+		"description": "Add a symbol textbackslash"
+	},
+	"dcases":{
+		"prefix": "bdca",
+		"body": "\\begin{dcases}\n\t${1}\n\\end{dcases}",
+		"description": "dcases 环境"
+	}, // 需要加载 mathtools 宏包
+	"frame":{
+		"prefix": "bef",
+		"body": "\\begin{frame}\n${1}\n\\end{frame}",
+		"description": "frame 环境"
+	},
+	"title":{
+		"prefix": "bt",
+		"body": "\\title{${1:title name}}",
+		"description": "标题"
+	},
+	"date":{
+		"prefix": "rq",
+		"body": "\\date{${1|\\today,<other>|}}",
+		"description": "日期"
+	},
+	"maketitle":{
+		"prefix": "pbt",
+		"body": "\\maketitle",
+		"description": "打印标题"
+	},
+
+	//字体选项
+	"emph":{
+		"prefix": "qd",
+		"body": "\\emph{$1}",
+		"description": "强调"
+	},
+	"text":{
+		"prefix": "wz",
+		"body": "\\text{${1}}",
+		"description": "数学环境外文字"
+	},
+	"textcolor":{
+		"prefix": "cwz",
+		"body": "\\textcolor{${1:color}}{${2:text}}",
+		"description": "textcolor"
+	},
+	"color":{
+		"prefix": "cwz",
+		"body": "\\color{${1:color}}",
+		"description": "color"
+	},
+
+	//矩阵环境
+	"pmatrix":{
+		"prefix": "pjz",
+		"body": "\\begin{pmatrix}\n\t$1\n\\end{pmatrix}",
+		"description": "pmatrix 矩阵环境"
+	},
+	"bmatrix":{
+		"prefix": "bjz",
+		"body": "\\begin{bmatrix}\n\t$1\n\\end{bmatrix}",
+		"description": "bmatrix 矩阵环境"
+	},
+	"vmatrix":{
+		"prefix": "vjz",
+		"body": "\\begin{vmatrix}\n\t$1\n\\end{vmatrix}",
+		"description": "vmatrix 矩阵环境"
+	},
+	// 希腊字母
+	"alpha":{
+		"prefix": "al",
+		"body": "\\alpha ",
+		"description": "alpha"
+	},
+	"Alpha":{
+		"prefix": "ual",
+		"body": "\\Alpha ",
+		"description": "Alpha"
+	},
+	"beta":{
+		"prefix": "be",
+		"body": "\\beta ",
+		"description": "beta"
+	},
+	"gamma":{
+		"prefix": "ga",
+		"body": "\\gamma ",
+		"description": "gamma"
+	},
+	"Gamma":{
+		"prefix": "uga",
+		"body": "\\Gamma ",
+		"description": "Gamma"
+	},
+	"delta":{
+		"prefix": "de",
+		"body": "\\delta ",
+		"description": "delta"
+	},
+	"Delta":{
+		"prefix": "ude",
+		"body": "\\Delta ",
+		"description": "Delta"
+	},
+	"epsilon":{
+		"prefix": "ep",
+		"body": "\\epsilon ",
+		"description": "epsilon"
+	},
+	"varepsilon":{
+		"prefix": "vep",
+		"body": "\\varepsilon ",
+		"description": "varepsilon"
+	},
+	"zeta":{
+		"prefix": "ze",
+		"body": "\\zeta ",
+		"description": "zeta"
+	},
+	"eta":{
+		"prefix": "et",
+		"body": "\\eta ",
+		"description": "eta"
+	},
+	"theta":{
+		"prefix": "th",
+		"body": "\\theta ",
+		"description": "theta"
+	},
+	"Theta":{
+		"prefix": "uth",
+		"body": "\\Theta ",
+		"description": "Theta"
+	},
+	"iota":{
+		"prefix": "io",
+		"body": "\\iota ",
+		"description": "iota"
+	},
+	"kappa":{
+		"prefix": "ka",
+		"body": "\\kappa ",
+		"description": "kappa"
+	},
+	"lambda":{
+		"prefix": "la",
+		"body": "\\lambda ",
+		"description": "lambda"
+	},
+	"Lambda":{
+		"prefix": "ula",
+		"body": "\\Lambda ",
+		"description": "Lambda"
+	},
+	"mu":{
+		"prefix": "mu",
+		"body": "\\mu ",
+		"description": "mu"
+	},
+	"nu":{
+		"prefix": "nu",
+		"body": "\\nu ",
+		"description": "nu"
+	},
+	"xi":{
+		"prefix": "xi",
+		"body": "\\xi ",
+		"description": "xi"
+	},
+	"Xi":{
+		"prefix": "uxi",
+		"body": "\\Xi ",
+		"description": "Xi"
+	},
+	"pi":{
+		"prefix": "pi",
+		"body": "\\pi ",
+		"description": "pi"
+	},
+	"Pi":{
+		"prefix": "upi",
+		"body": "\\Pi ",
+		"description": "Pi"
+	},
+	"rho":{
+		"prefix": "rh",
+		"body": "\\rho ",
+		"description": "rho"
+	},
+	"sigma":{
+		"prefix": "si",
+		"body": "\\sigma ",
+		"description": "sigma"
+	},
+	"Sigma":{
+		"prefix": "usi",
+		"body": "\\Sigma ",
+		"description": "Sigma"
+	},
+	"tau":{
+		"prefix": "ta",
+		"body": "\\tau ",
+		"description": "tau"
+	},
+	"upsilon":{
+		"prefix": "yp",
+		"body": "\\upsilon ",
+		"description": "upsilon"
+	},
+	"Upsilon":{
+		"prefix": "uyp",
+		"body": "\\Upsilon ",
+		"description": "Upsilon"
+	},
+	"phi":{
+		"prefix": "ph",
+		"body": "\\phi ",
+		"description": "phi" 
+	},
+	"Phi":{
+		"prefix": "uph",
+		"body": "\\Phi ",
+		"description": "Phi"
+	},
+	"varphi":{
+		"prefix": "vph",
+		"body": "\\varphi ",
+		"description": "varphi"
+	},
+	"chi":{
+		"prefix": "ch",
+		"body": "\\chi ",
+		"description": "chi"
+	},
+	"psi":{
+		"prefix": "ps",
+		"body": "\\psi ",
+		"description": "psi"
+	},
+	"Psi":{
+		"prefix": "ups",
+		"body": "\\Psi ",
+		"description": "Psi"
+	},
+	"omega":{
+		"prefix": "om",
+		"body": "\\omega ",
+		"description": "omega"
+	},
+	"Omega":{
+		"prefix": "uom",
+		"body": "\\Omega ",
+		"description": "Omega"
+	},
+	
+	// tikz 宏包代码片段
+	"darw":{
+		"prefix": "dr",
+		"body": "\\draw[${1:options}] ",
+		"description": "draw 绘图命令"
+	},
+	"fill":{
+		"prefix": "fl",
+		"body": "\\fill[${1:options}] ",
+		"description": "fill 绘图命令"
+	},
+	"draw patterns":{
+		"prefix": "drpatn",
+		"body": "\\draw[pattern=${1|north east lines,dots,crosshatch dots,bricks,rosshatch,grid|}] ",
+		"description": "利用pattern库的参数"
+	}, // 需要加载 patterns 库
+	"ellipse":{
+		"prefix": "ty",
+		"body": "\\draw[${1:options}](${2:center})ellipse[x radius=$3,y radius=$4]",
+		"description": "椭圆"
+	},
+	"arc":{
+		"prefix": "drac",
+		"body": "\\draw[${1:options}] (${2:start pt})arc[start angle=$3,end angle=$4,${5:<radius= > or <x radius= ,y radius= >}]",
+		"description": "弧"
+	},
+	"jiao du biao zhu":{
+		"prefix": "jdbz",
+		"body": "\\draw (${1:pt1})coordinate(A)--(${2:pt2})coordinate(B)--(${3:pt3})coordinate(C)pic[draw,angle eccentricity=$4,angle radius=$5]{angle}",
+		"description": "角度标注"
+	}, // 需加载 angles 和 quotes 库
+
+	// tkz-euclide 宏包命令代码片段
+	"tkzInit":{
+		"prefix": "tki",
+		"body": "\\tkzInit[$1]",
+		"description": "tkzInit Command"
+	}, //有 xstep 和 ystep 可选参数
+	"tkzAxeX":{
+		"prefix": "tkx",
+		"body": "\\tkzAxeX",
+		"description": "tkzAxeX command"
+	},
+	"tkzAxeY":{
+		"prefix": "tky",
+		"body": "\\tkzAxeY",
+		"description": "tkzAxeY command"
+	},
+	"tkzDrawX":{
+		"prefix": "tkdx",
+		"body": "\\tkzDrawX",
+		"description": "tkzDrawX command"
+	}, //有 noticks 选项
+	"tkzDrawY":{
+		"prefix": "tkdy",
+		"body": "\\tkzDrawY",
+		"description": "tkzDrawY command"
+	}, //有 noticks 选项
+	"tkzAxeXY":{
+		"prefix": "tka",
+		"body": "\\tkzAxeXY",
+		"description": "tkzAxeXY command"
+	},
+	"tkzDrawXY":{
+		"prefix": "tkd",
+		"body": "\\tkzDrawXY",
+		"description": "tkzDrawXY command"
+	},
+	"tkzGrid":{
+		"prefix": "tkg",
+		"body": "\\tkzGrid",
+		"description": "tkzGrid command"
+	}, //有 sub 和 subxstep 和 subystep 可选参数
+	"tkzClip":{
+		"prefix": "tkc",
+		"body": "\\tkzClip",
+		"description": "tkzClip command"
+	}, //有 space 选项
+	"tkzDefPoint":{
+		"prefix": "tkdep",
+		"body": "\\tkzDefPoint[${1:local option}](${2:point}){${3:name}}",
+		"description": "tkzDefPoint command"
+	},//有 shift 和 label=<postion>:<label> 可选参数
+	"tkzDefPoints":{
+		"prefix": "tkdeps",
+		"body": "\\tkzDefPoints[${2:local options}]{${1:points}}",
+		"description": "tkzDefPoints command"
+	},
+	"tkzDrawSegments":{
+		"prefix": "tkds",
+		"body": "\\tkzDrawSegments[${1:local options}](${2:segments})",
+		"description": "tkzDrawSegments command"
+	},//有 color 可选参数
+	"tkzDrawPolygon":{
+		"prefix": "tkdpl",
+		"body": "\\tkzDrawPolygon[${2:options}](${1:points})",
+		"description": "tkzDrawPolygon command"
+	},//有 color 可选参数
+	"tkzDrawPoints":{
+		"prefix": "tkdrps",
+		"body": "\\tkzDrawPoints[${1:local options}](${2:points})",
+		"description": "tkzDrawPoints command"
+	},//有 color 可选参数
+	"tkzDrawPoint":{
+		"prefix": "tkdrp",
+		"body": "\\tkzDrawPoint[${1:option}](${2:name})",
+		"description": "tkzDrawPoint command"
+	},//有 color 可选参数
+	"tkzLabelPoints":{
+		"prefix": "tklps",
+		"body": "\\tkzLabelPoints[${2:options}](${1:points})",
+		"description": "tkzLabelPoints command"
+	},
+	"tkzLabelPoint":{
+		"prefix": "tklp",
+		"body": "\\tkzLabelPoint[${1:options}](${2:point}){${3:label}}",
+		"description": "tkzLabelPoint command"
+	},//有一个位置的可选参数:<above,below,right,left>以及它们的组合
+	"tkzSetUpPoint":{
+		"prefix": "tkstp",
+		"body": "\\tkzSetUpPoint[${1:style}]",
+		"description": "tkzSetUpPoint command"
+	},
+	"tkzSetUpLine":{
+		"prefix": "tkstl",
+		"body": "\\tkzSetUpLine[${1:style}]",
+		"description": "tkzSetUpLine command"
+	},
+	"tkzDefShiftPoint":{
+		"prefix": "tkdesp",
+		"body": "\\tkzDefShiftPoint[${3:point}](${1:<x,y> or <a:r>}){${2:name}}",
+		"description": "tkzDefShiftPoint command"
+	},
+	"tkzDefShiftPointCoord":{
+		"prefix": "tkdespc",
+		"body": "\\tkzDefShiftPointCoord[${1:point}](${2:<x,y>}){${3:name}}",
+		"description": "tkzDefShiftPointCoord command"
+	},
+	"tkzMarkSegments":{
+		"prefix": "tkms",
+		"body": "\\tkzMarkSegments[mark=$1](${2:segments})",
+		"description": "tkzMarkSegments command"
+	},
+	"tkzCalcLength":{
+		"prefix": "tkcl",
+		"body": "\\tkzCalcLength[${1:unit}](${2:segment})\\tkzGetLength{${3:length command}}",
+		"description": "tkzCalcLength and tkzGetLength command"
+	},
+	"tkzDrawCircle":{
+		"prefix": "tkdc",
+		"body": "\\tkzDrawCircle[${1:options}](${2:<name,radius> or <center,point>})",
+		"description": "tkzDrawCircle command"
+	},
+	"tkzDefMidPoint":{
+		"prefix": "tkdmp",
+		"body": "\\tkzDefMidPoint(${1:<point1,point2>})\\tkzGetPoint{${2:midpoint}}",
+		"description": "tkzDefMidPoint and tkzGetPoint command"
+	},
+	"tkzDefBarycentricPoint":{
+		"prefix": "tkdebcp",
+		"body": "\\tkzDefBarycentricPoint(${1:<pt1=para1,pt2=para2,...>})\\tkzGetPoint{${2:point name}}",
+		"description": "tkzDefBarycentricPoint and tkzGetPoint command"
+	}, // 带权重质心, barycentric: 重心的
+	"tkzCentroid":{
+		"prefix": "tkcet",
+		"body": "\\tkzCentroid(${1:<pt1,pt2,pt3,...>})\\tkzGetPoint{${2:point name}}",
+		"description": "tkzCentroid and tkzGetPoint command"
+	}, // 质心, centroid: 质心
+	"tkzDrawLine":{
+		"prefix": "tkdl",
+		"body": "\\tkzDrawLine[${2:options}](${1:segment})",
+		"description": "tkzDrawLine command"
+	},// 可带有 add=<number1> and <number2> 选项
+	"tkzDrawLines":{
+		"prefix": "tkdls",
+		"body": "\\tkzDrawLines[${1:options}](${2:<seg1,seg2,seg3,...>})",
+		"description": "tkzDrawLines command"
+	},// 可带有 add=<number1> and <number2>选项
+	"tkzDefEquilateral":{
+		"prefix": "tkdeeq",
+		"body": "\\tkzDefEquilateral(${1:<pt1,pt2>})\\tkzGetPoint{${2:point name}}",
+		"description": "tkzDefEquilateral and tkzGetPoint command"
+	}, // 找到以 pt1 和 pt2 为边长的等边三角形的另一个顶点, equilateral: 等边的
+	"tkzCircumCenter":{
+		"prefix": "tkcc",
+		"body": "\\tkzCircumCenter(${1:<pt1,pt2,pt3>})\\tkzGetPoint{${2:point name}}",
+		"description": "tkzCircumCenter and tkzGetPoint command"
+	}, // 找到一个三角形的外接圆的圆心
+	"tkzInCenter":{
+		"prefix": "tkic",
+		"body": "\\tkzInCenter(${1:pt1,pt2,pt3})\\tkzGetPoint{${2:point name}}",
+		"description": "tkzInCenter and tkzGetPoint command"
+	}, // 找到一个三角形的中心
+	"tkzGetRandPointOn":{
+		"prefix": "tkgrpo",
+		"body": "\\tkzGetRandPointOn[${2|rectangle= and ,segment=,line=,circle=center radius |}]{${1:point name}}",
+		"description": "tkzGetRandPointOn command"
+	}, // 随机点, 其中的 options 是一个区域, 随机点只能从该区域中选取
+	"tkzDefPointBy":{
+		"prefix": "tkdepb",
+		"body": "\\tkzDefPointBy[${1|rotation=center angle ,rotation in rad=center angle ,translation=from to ,homothety=center ratio ,reflection=over ,symmetry=center ,projection=onto ,inversion=center through |}](${2:pt2})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDefPointBy and tkzGetPoint command"
+	}, 
+	"tkzInterCC":{
+		"prefix": "tkicc",
+		"body": "\\tkzInterCC[${1:options}](${2:<center pt1,radius1>})(${3:<center pt2,radius2>})\\tkzGetPoints{${4:pt1' name}}{${5:pt2' name}}",
+		"description": "tkzInterCC and tkzGetPoints command"
+	}, // 找到两个圆的两个交点
+	"tkzDrawArc":{
+		"prefix": "tkdarc",
+		"body": "\\tkzDrawArc[${1:options}](${2:<pt1,pt2> or <pt,r>})(${3:<pt> or <an> or <an,an> or <pt,pt>})",
+		"description": "tkzDrawArc command"
+	}, // 将线段 pt1--pt2 逆时针旋转到直线 pt1--pt3 上所形成的圆弧, 有 towards, rotate, R, R with nodes, delta 选项
+	"tkzCompasss":{
+		"prefix": "tkcps",
+		"body": "\\tkzCompasss[${1:options}](${2:<pt1,pt2 pt3,pt4, ...>})",
+		"description": "tkzCompasss command"
+	}, // 以 ptn 为圆心, ptn--ptn+1 为半径在 ptn+1 处画一段圆弧, 有 delta, length, ratio 选项.
+	"tkzDrawTriangle":{
+		"prefix": "tkdrt",
+		"body": "\\tkzDrawTriangle[${1|two angles= and ,equilateral,pythagore,school,gold,euclide,golden,cheops|}](${2:<pt1,pt2>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDrawTriangle and tkzGetPoint command"
+	},
+	"tkzMarkAngle":{
+		"prefix": "tkmkag",
+		"body": "\\tkzMarkAngle[${1:options}](${2:pt1,pt2,pt3})",
+		"description": "tkzMarkAngle command"
+	}, //有 mark, arc, size, mkcolor 可选参数
+	"tkzLabelAngle":{
+		"prefix": "tklan",
+		"body": "\\tkzLabelAngle[${1:options}](${2:<pt1,pt2,pt3>}){${3:label}}",
+		"description": "tkzLabelAngle command"
+	}, //有 pos, circle, draw, fill 可选参数
+	"tkzMarkRightAngle":{
+		"prefix": "tkmkrag",
+		"body": "\\tkzMarkRightAngle(${1:<pt1,pt2,pt3>})",
+		"description": "tkzMarkRightAngle command"
+	}, // 标记直角
+	"tkzPoint":{
+		"prefix": "tkpo",
+		"body": "\\tkzPoint(${1:<pt1,pt2>}){${2:pt name}}",
+		"description": "tkzPoint command"
+	}, // 定义点的同时添加标签
+	"tkzDefPointsBy":{
+		"prefix": "tkdepsb",
+		"body": "\\tkzDefPointsBy[${1|rotation=center angle ,rotation in rad=center angle ,translation=from to ,homothety=center ratio ,reflection=over ,symmetry=center ,projection=onto ,inversion=center through |}](${2:pt list}){${3:pt list}}",
+		"description": "tkzDefPointsBy command"
+	},
+	"tkzDefSquare":{
+		"prefix": "tkdesq",
+		"body": "\\tkzDefSquare(${1:<pt1,pt2>})\\tkzGetPoints{${2:pt3}}{${3:pt4}}",
+		"description": "tkzDefSquare and tkzGetPoints command"
+	},
+	"tkzDrawSquare":{
+		"prefix": "tkdrsq",
+		"body": "\\tkzDrawSquare(${1:<pt1,pt2>})",
+		"description": "tkzDrawSquare command"
+	},
+	"tkzClipPolygon":{
+		"prefix": "tkcp",
+		"body": "\\tkzClipPolygon(${1:<pt list>})",
+		"description": "tkzClipPolygon command"
+	},
+	"tkzFillPolygon":{
+		"prefix": "tkfp",
+		"body": "\\tkzFillPolygon[${2:options}](${1:<pt list>})",
+		"description": "tkzFillPolygon command"
+	},
+	"tkzShowTransformation":{
+		"prefix": "tkstr",
+		"body": "\\tkzShowTransformation[${1|reflection=over ,symmetry=center ,projection=onto ,translation=from to |}](${2:pt})",
+		"description": "tkzShowTransformation command"
+	},
+	// 有 size, length, gap, K, ratio 可选选项
+	"tkzInterLL":{
+		"prefix": "tkill",
+		"body": "\\tkzInterLL(${1:<pt1,pt2>})(${2:<pt3,pt4>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzInterLL and tkzGetPoint comand"
+	},
+	// 找到两条直线的交点
+	"tkzInterLC":{
+		"prefix": "tkilc",
+		"body": "\\tkzInterLC[${5:options}](${1:<pt1,pt2>})(${2:<pt3,pt4> or <center,radius>})\\tkzGetPoints{${3:pt name}}{${4:pt name}}",
+		"description": "tkzInterLC and tkzGetPoints command"
+	},
+	// 找到一条直线和一个圆的交点
+	"tkzTangent":{
+		"prefix": "tkta",
+		"body": "\\tkzTangent[${1|at= ,from= ,from with R= |}](${2:<center> or <pt1,pt2> or <center,radius>})",
+		"description": "tkzTangent and command"
+	},
+	"tkzLabelSegment":{
+		"prefix": "tkls",
+		"body": "\\tkzLabelSegment[${1:options}](${2:<pt1,pt2>}){${3:label name}}",
+		"description": "tkzLabelSegment command"
+	},
+	"tkzLabelSegments":{
+		"prefix": "tklss",
+		"body": "\\tkzLabelSegments[${1:options}](${2:<pt1,pt2 pt3,pt4 ...>}){${3:label}}",
+		"description": "tkzLabelSegments command"
+	},
+	"tkzDefLine":{
+		"prefix": "tkdel",
+		"body": "\\tkzDefLine[${1|mediator,perpendicular=through ,orthogonal=through ,parallel=through ,bisector,bisector out|}](${2:<pt1,pt2>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDefLine and tkzGetPoint command"
+	},
+	"tkzDefPointWith":{
+		"prefix": "tkdepw",
+		"body": "\\tkzDefPointWith[${1|orthogonal,orthogonal normed,linear,linear normed,colinear=at |}](${2:<pt1,pt2>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDefPointWith and tkzGetPoint command"
+	},
+	"tkzDefTriangle":{
+		"prefix": "tkdet",
+		"body": "\\tkzDefTriangle[${1|two angles= and ,equilateral,pythagore,school,gold,euclide,golden,cheops|}](${2:<pt1,pt2>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDefTriangle and tkzGetPoint command"
+	},
+	"tkzDrawBisector":{
+		"prefix": "tkdbs",
+		"body": "\\tkzDrawBisector(${1:<pt1,pt2,pt3>})",
+		"description": "tkzDrawBisector command"
+	}, // 画出一个角的角平分线
+	"tkzDrawMedian":{
+		"prefix": "tkdrm",
+		"body": "\\tkzDrawMedian[${1:options}](${2:<pt1,pt2>})(${3:pt3})",
+		"description": "tkzDrawMedian command"
+	}, // 画出中位线
+	"tkzDrawAltitude":{
+		"prefix": "tkdral",
+		"body": "\\tkzDrawAltitude[${1:options}](${2:<pt1,pt2>})(${3:pt3})",
+		"description": "tkzDrawAltitude command"
+	}, //画出高线
+	"tkzDrawSector":{
+		"prefix": "tkdrse",
+		"body": "\\tkzDrawSector[${1:option}](${2:<pt1,pt2> or <pt,r>})(${3:<pt> or <an> or <an,an> or <pt,pt>})",
+		"description": "tkzDrawSector command"
+	}, //画一个扇形区域, 有 towards, rotate, R, R with nodes 选项
+	"tkzDefGoldRectangle":{
+		"prefix": "tkder",
+		"body": "\\tkzDefGoldRectangle(${1:<pt1,pt2>})",
+		"description": "tkzDefGoldRectangle command"
+	},
+	"tkzDrawGoldRectangle":{
+		"prefix": "tkdrr",
+		"body": "\\tkzDrawGoldRectangle[${1:option}](${2:<pt1,pt2>})",
+		"description": "tkzDrawGoldRectangle command"
+	},
+	"tkzDrawVectors":{
+		"prefix": "tkdrve",
+		"body": "\\tkzDrawVectors(${1:<pt1,pt2 pt3,pt4 ...>})",
+		"description": "tkzDrawVectors command"
+	},
+	"tkzPointShowCoord":{
+		"prefix": "tkpsc",
+		"body": "\\tkzPointShowCoord[${1:option}](${2:pt})",
+		"description": "tkzPointShowCoord command"
+	},
+	"tkzDefCircle":{
+		"prefix": "tkdec",
+		"body": "\\tkzDefCircle[${1|radius,diameter,circum,in,euler,apollonius,orthogonal,orthogonal through|}](${2:<pt1,pt2> or <pt1,pt2,pt3>})\\tkzGetLength{${3:length}}",
+		"description": "tkzDefCircle and tkzGetLength command"
+	}, // 还有以下选项: K,color,fill,line width
+	"tkzGetPoint":{
+		"prefix": "tkgp",
+		"body": "\\tkzGetPoint{${1:pt name}}",
+		"description": "tkzGetPoint command"
+	},
+	"tkzGetPoints":{
+		"prefix": "tkgps",
+		"body": "\\tkzGetPoints{${1:pt name}}{${2:pt name}}",
+		"description": "tkzGetPoints command"
+	},
+	"tkzGetLength":{
+		"prefix": "tkgl",
+		"body": "\\tkzGetLength{${1:length name}}",
+		"description": "tkzGetLength command"
+	},
+	"tkzGetAngle":{
+		"prefix": "tkga",
+		"body": "\\tkzGetAngle{${1:an name}}",
+		"description": "tkzGetAngle command"
+	},
+	"tkzFillCircle":{
+		"prefix": "tkfic",
+		"body": "\\tkzFillCircle[${1:options}](${2:<pt1,pt2>})",
+		"description": "tkzFillCircle command"
+	},
+	"tkzFillSector":{
+		"prefix": "tkfis",
+		"body": "\\tkzFillSector[${1:option}](${2:<pt1,pt2> or <pt,r>})(${3:<pt> or <an> or <an,an> or <pt,pt>})",
+		"description": "tkzFillSector command"
+	}, //有 towards, rotate, R, R with nodes 选项
+	"tkzClipCircle":{
+		"prefix": "tkclpc",
+		"body": "\\tkzClipCircle[${1:option}](${2:<pt1,pt2>})",
+		"description": "tkzClipCircle command"
+	},
+	"tkzClipSector":{
+		"prefix": "tkclpse",
+		"body": "\\tkzClipSector[${1:option}](${2:<pt,pt> or <pt,pt> or <pt,r>})(${3:<pt> or <an> or <an,an>})",
+		"description": "tkzClipSector command"
+	}, // 有 towards, rotate, R 选项
+	"tkzLabelCircle":{
+		"prefix": "tklc",
+		"body": "\\tkzLabelCircle[${1:options}](${2:<pt1,pt2>})(${3:angle}){${4:label}}",
+		"description": "tkzLabelCircle command"
+	},
+	"tkzProtractor":{
+		"prefix": "tkpro",
+		"body": "\\tkzProtractor[${1:option}](${2:<pt1,pt2>})",
+		"description": "tkzProtractor command"
+	}, // 有 with, lw, scale, return 选项
+	"tkzDuplicateLen":{
+		"prefix": "tkdupl",
+		"body": "\\tkzDuplicateLen(${1:<pt1,pt2>})(${2:<pt3,pt4>})\\tkzGetPoint{${3:pt name}}",
+		"description": "tkzDuplicateLen command"
+	}, // 在线段 pt3--pt4 上找到一点 pt, 使得 pt3--pt=pt1--pt2
+	"tkzFindSlope":{
+		"prefix": "tkfs",
+		"body": "\\tkzFindSlope(${1:<pt1,pt2>}){${2:macro name}}",
+		"description": "tkzFindSlope command"
+	},
+	"tkzFindSlopeAngle":{
+		"prefix": "tkfsa",
+		"body": "\\tkzFindSlopeAngle(${1:pt1,pt2})\\tkzGetAngle{${2:an name}}",
+		"description": "tkzFindSlopeAngle and tkzGetAngle command"
+	},
+	"tkzFindAngle":{
+		"prefix": "tkfa",
+		"body": "\\tkzFindAngle(${1:<pt1,pt0,pt2>})\\tkzGetAngle{${2:an name}}",
+		"description": "tkzFindAngle and tkzGetAngle command"
+	},
+	"tkzVecKOrth":{
+		"prefix": "tkvko",
+		"body": "\\tkzVecKOrth[${1:option}](${2:<pt1,pt2>}){${3:macro name}}",
+		"description": "tkzVecKOrth command"
+	},
+	"tkzpttocm":{
+		"prefix": "tkptc",
+		"body": "\\tkzpttocm(${1:num}){${2:macro name}}",
+		"description": "tkzpttocm command"
+	},
+	"tkzcmtopt":{
+		"prefix": "tkctp",
+		"body": "\\tkzcmtopt(${1:num}){${2:macro name}}",
+		"description": "tkzcmtopt command"
+	},
+	"tkzRep":{
+		"prefix": "tkrep",
+		"body": "\\tkzRep",
+		"description": "tkzRep command"
+	}, // 画 x, y 方向的单位矢量, 通过选项可以修改.
+	"tkzLegend":{
+		"prefix": "tklgt",
+		"body": "\\tkzLegend[draw,line=true](${1:postion}){${2:style/line width/color/text}}",
+		"description": "tkzLegend command"
+	},
+	"tkzHLines":{
+		"prefix": "tkhls",
+		"body": "\\tkzHLines[${1:option}]{${2:num list}}",
+		"description": "tkzHLines command"
+	},
+	"tkzVLines":{
+		"prefix": "tkvls",
+		"body": "\\tkzVLines[${1:option}]{${2:num list}}",
+		"description": "tkzVLines command"
+	},
+	"tkzHTicks":{
+		"prefix": "tkhtks",
+		"body": "\\tkzHTicks[mark=${1}]{${2:num list}}",
+		"description": "tkzHTicks command"
+	},
+	"tkzVTicks":{
+		"prefix": "tkvtks",
+		"body": "\\tkzVTicks[mark=${1}]{${2:num list}}",
+		"description": "tkzVTicks command"
+	},
+
+	// tkz-fct 宏包代码片段
+	"tkzFct":{
+		"prefix": "tkfc",
+		"body": "\\tkzFct[${1:options}]{${2:function}}",
+		"description": "tkzFct command"
+	}, // options 可选选项有 color, domain 等
+	"tkzLabelX":{
+		"prefix": "tklx",
+		"body": "\\tkzLabelX",
+		"description": "tkzLabelX command"
+	},
+	"tkzLabelY":{
+		"prefix": "tkly",
+		"body": "\\tkzLabelY",
+		"description": "tkzLabelY command"
+	},
+	"tkzText":{
+		"prefix": "tktx",
+		"body": "\\tkzText[${1:options}](${2:pt}){${3:text}}",
+		"description": "tkzText command"
+	},
+	"tkzDefPointByFct":{
+		"prefix": "tkdepbf",
+		"body": "\\tkzDefPointByFct(${1:x value})\\tkzGetPoint{${2:pt name}}",
+		"description": "tkzDefPointByFct and tkzGetPoint command"
+	}, // 可选参数为 draw, with, ref
+	"tkzLabelLine":{
+		"prefix": "tkll",
+		"body": "\\tkzLabelLine[${1:options}](${2:<pt1,pt2>}){${3:label}}",
+		"description": "tkzLabelLine command"
+	}, // 可选项有 pos, color, direction<right,left,above,below>
+	// pgfplots 宏包代码片段
+	"axis":{
+		"prefix": "beax",
+		"body": "\\begin{axis}[${1:options}]\n\t$2\n\\end{axis}",
+		"description": "axis 环境"
+	},
+	"addplot":{
+		"prefix": "adpl",
+		"body": "\\addplot[${1:options}]",
+		"description": "addplot 命令"
+	},
+	// tikz-3dplot 宏包代码片段
+	"tdplotsetmaincoords":{
+		"prefix": "tdpsmc",
+		"body": "\\tdplotsetmaincoords{${1}}{${2}}",
+		"description": "tdplotsetmaincoords command"
+	},
+	"tdplotsetrotatedcoords":{
+		"prefix": "tdpsrc",
+		"body": "\\tdplotsetrotatedcoords{${3:al}}{${2:be}}{${1:ga}}",
+		"description": "tdplotsetrotatedcoords command"
+	},
+	"tdplotsetrotatedcoordsorigin":{
+		"prefix": "tdpsrco",
+		"body": "\\tdplotsetrotatedcoordsorigin{${1:pt name}}",
+		"description": "tdplotsetrotatedcoordsorigin command"
+	},
+	"tdplotresetrotatedcoordsorigin":{
+		"prefix": "tdprsrco",
+		"body": "\\tdplotresetrotatedcoordsorigin ",
+		"description": "tdplotresetrotatedcoordsorigin command"
+	},
+	"tdplotsetthetaplanecoords":{
+		"prefix": "tdpstpc",
+		"body": "\\tdplotsetthetaplanecoords{${1}}",
+		"description": "tdplotsetthetaplanecoords command"
+	},
+	"tdplotsetrotatedthetaplanecoords":{
+		"prefix": "tdpsrtpc",
+		"body": "\\tdplotsetrotatedthetaplanecoords{${1}}",
+		"description": "tdplotsetrotatedthetaplanecoords"
+	},
+	"tdplotsetcoord":{
+		"prefix": "tdpsc",
+		"body": "\\tdplotsetcoord{${1:pt name}}{${2:r}}{${3:th}}{${4:phi}}",
+		"description": "tdplotsetcoord command"
+	},
+	"tdplottransformmainrot":{
+		"prefix": "tdptfmr",
+		"body": "\\tdplottransformmainrot{${1}}{${2}}{${3}}",
+		"description": "tdplottransformmainrot command"
+	},
+	"tdplottransformrotmain":{
+		"prefix": "tdptrm",
+		"body": "\\tdplottransformrotmain{${1}}{${2}}{${3}}",
+		"description": "tdplottransformrotmain command"
+	},
+	"pgfmathmacro":{
+		"prefix": "pgfm",
+		"body": "\\pgfmathsetmacro{${1}}{${2}}",
+		"description": "pgfmathsetmacro command"
+	},
+	"tdplottransformmainscreen":{
+		"prefix": "tdptms",
+		"body": "\\tdplottransformmainscreen{${1}}{${2}}{${3}}",
+		"description": "tdplottransformmainscreen command"
+	},
+	"tdplotgetpolarcoords":{
+		"prefix": "tdpgpc",
+		"body": "\\tdplotgetpolarcoords{${1}}{${2}}{${3}}",
+		"description": "tdplotgetpolarcoords command"
+	},
+	"tdplotdrawarc":{
+		"prefix": "tdpdarc",
+		"body": "\\tdplotdrawarc[${1:<coord sys,dr style>}]{${2:center}}{${3:r}}{${4:angle start}}{${5:angle end}}{${6:label option}}{${7:label}}",
+		"description": "tdplotdrawarc command"
+	},
+	"tdplotcalctransformmainrot":{
+		"prefix": "tdpctmr",
+		"body": "\\tdplotcalctransformmainrot",
+		"description": "tdplotcalctransformmainrot command"
+	},
+	"tdplotcalctransformrotmain":{
+		"prefix": "tdpctrm",
+		"body": "\\tdplotcalctransformrotmain",
+		"description": "tdplotcalctransformrotmain command"
+	},
+	"tdplotcalctransformmainscreen":{
+		"prefix": "tdpctms",
+		"body": "\\tdplotcalctransformmainscreen",
+		"description": "tdplotcalctransformmainscreen command"
+	},
+	"tdplotcrossprod":{
+		"prefix": "tdpcp",
+		"body": "\\tdplotcrossprod(${1:<pt1x,pt1y,pt1z>})(${2:<pt2x,pt2y,pt2z>})",
+		"description": "tdplotcrossprod command"
+	},
+	"tdplotdefinepoints":{
+		"prefix": "tdpdp",
+		"body": "\\tdplotdefinepoints(${1:<vx,vy,vz>})(${2:<ax,ay,az>})(${3:<bx,by,bz>})",
+		"description": "tdplotdefinepoints command"
+	},
+	"tdplotdrawpolytopearc":{
+		"prefix": "tdpdptparc",
+		"body": "\\tdplotdrawpolytopearc[${1:draw style}]{${2:r}}{${3:label options}}{${4:label}}",
+		"description": "tdplotdrawpolytopearc command"
+	},
+	"tdplotsphericalsurfaceplot":{
+		"prefix": "tdpscsp",
+		"body": "\\tdplotsphericalsurfaceplot[${1:fill color style}]{${2:theta steps}}{${3:phi steps}}{${4:function}}{${5:line color}}{${6:fill color}}{${7:x axis}}{${8:y axis}}{${9:z axis}}",
+		"description": "tdplotsphericalsurfaceplot command"
+	},
+	"tdplotsetpolarplotrange":{
+		"prefix": "tdpsppr",
+		"body": "\\tdplotsetpolarplotrange{${1:lowertheta}}{${2:uppertheta}}{${3:lowerphi}}{${4:upperphi}}",
+		"description": "tdplotsetpolarplotrange command"
+	},
+	"tdplotresetpolarplotrange":{
+		"prefix": "tdprsppr",
+		"body": "\\tdplotresetpolarplotrange",
+		"description": "tdplotresetpolarplotrange command"
+	},
+	"tdplotshowargcolorguide":{
+		"prefix": "tdpsacg",
+		"body": "\\tdplotshowargcolorguide{${1:x position}}{${2:y position}}{${3:x size}}{${4:y size}}",
+		"description": "tdplotshowargcolorguide command"
+	},
+
+	// beamer 文档类代码片段
+	"frametitle":{
+		"prefix": "frt",
+		"body": "\\frametitle{${1:<title>}}",
+		"description": "frametitle command"
+	},
+	"framesubtitle":{
+		"prefix": "frst",
+		"body": "\\framesubtitle{${1:<title>}}",
+		"description": "framesubtitle command"
+	}
+}
